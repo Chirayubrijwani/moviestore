@@ -13,6 +13,11 @@ router.get('/me', auth, async (req, res) => {
   res.send(user);
 });
 
+
+router.get('/',  async (req, res) => {
+  console.log('server up');
+});
+
 router.post('/', async (req, res) => {
   const { error } = validate(req.body); 
   if (error) return res.status(400).send(error.details[0].message);
