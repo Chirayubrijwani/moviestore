@@ -1,4 +1,5 @@
 {
   "jwtPrivateKey": "mySecureKey",
-  "db" : "mongodb://localhost/vidly"
+  "db" : "mongodb+srv://chirayu:asdf12345@cluster0-fy3uu.mongodb.net/test?retryWrites=true"
+  
 }

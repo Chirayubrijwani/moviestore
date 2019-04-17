@@ -15,6 +15,7 @@
     "joi": "^14.3.1",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
     "mongoose": "^5.5.1",
     "winston": "^3.2.1",
     "winston-mongodb": "^5.0.0"
@@ -23,11 +24,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-
   },
-  "engines":{
-    "node":"10.14.1"
-
+  "engines": {
+    "node": "10.14.1"
   },
   "author": "",
   "license": "ISC"
